@@ -1,0 +1,50 @@
+
+Drop table meds ;
+
+CREATE TABLE meds (
+ID						integer PRIMARY KEY,	
+CategoriaSecAmarilla	varchar(20),	
+Titulo					varchar(5) ,	
+Nombre					varchar(80),
+Apellido_Paterno		varchar(80),		
+Apellido_Materno		varchar(80),	
+Ingles_SN				varchar(3),	
+Tel1					varchar(80),	
+Tel2					varchar(80),	
+Tel						varchar(80),
+Urgencias				varchar(80),
+Cel1					varchar(80),
+Cel2					varchar(80),
+Fax1					varchar(80),
+email1					varchar(280),						
+Horario					varchar(300),
+website1				varchar(280),
+Ciudad					varchar(80),
+Direccion				varchar(80),
+NumCodPostal			varchar(10),	
+Referencia				varchar(80),
+Esp1					varchar(80),
+Esp2					varchar(80),	
+Esp3					varchar(280),	
+Cert1					varchar(280),	
+Cert2					varchar(280),
+Esc1					varchar(80),
+PS1						varchar(80),
+PS2						varchar(80),		
+PS3						varchar(80),	
+PS4						varchar(80),	
+PS5						varchar(80),	
+PS6						varchar(80),	
+PS7						varchar(80),	
+PS8						varchar(80),	
+PS9						varchar(80),		
+PS10					varchar(80),
+xx                      varchar(80),
+xx2                     varchar(80),
+xx3                     varchar(80)
+);
+
+     infosource    varchar(40) DEFAULT 'SeccionAmarilla',
+     modtime   timestamp DEFAULT current_timestamp,
+     dob       date
+);
